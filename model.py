@@ -5,7 +5,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score
-from sklearn.ensemble import RandomForestClassifier
+
 import pickle
 
 df = pd.read_csv('dataset.csv')
